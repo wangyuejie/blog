@@ -17,12 +17,12 @@ description: >-                        # used by seo meta and the atom feed
   bootstrap Jekyll theme with responsive web design
   and focuses on text presentation.
 
-# Replace with the website url, e.g. 'https://username.github.io'
-url: 'https://wangyuejie.github.io'
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://wangyuejie.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 author: wangyuejie                  # change to your full name
 
-avatar: /blog/assets/img/sample/avatar.jpg   # support internet resources
+avatar: /assets/img/sample/avatar.jpg   # support internet resources
 
 github:
  username: wangyuejie             # change to your github username
