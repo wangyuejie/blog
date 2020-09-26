@@ -163,7 +163,7 @@ defaults:
 
 
 sass:
-  sass_dir: /assets/css
+  sass_dir: /blog/assets/css
   style: compressed
 
 compress_html:
