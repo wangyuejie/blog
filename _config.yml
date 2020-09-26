@@ -108,7 +108,7 @@ permalink: /posts/:title/
 defaults:
   -
     scope:
-      path: "blog/"          # An empty string here means all files in the project
+      path: ""          # An empty string here means all files in the project
       type: posts
     values:
       layout: post
@@ -118,7 +118,7 @@ defaults:
       breadcrumb:
         -
           label: Posts
-          url: /
+          url: /blog/
   -
     scope:
       path: _drafts
@@ -133,10 +133,10 @@ defaults:
       breadcrumb:
         -
           label: Home
-          url: /
+          url: /blog/
         -
           label: Tags
-          url: /tabs/tags/
+          url: /blog/tabs/tags/
   -
     scope:
       path: categories
@@ -146,10 +146,10 @@ defaults:
       breadcrumb:
         -
           label: Home
-          url: /
+          url: /blog/
         -
           label: Categories
-          url: /tabs/categories/
+          url: /blog/tabs/categories/
   -
     scope:
       path: tabs
@@ -159,7 +159,7 @@ defaults:
       breadcrumb:
         -
           label: Home
-          url: /
+          url: /blog/
 
 
 sass:
