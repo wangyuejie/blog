@@ -22,7 +22,7 @@ url: 'https://wangyuejie.github.io/blog'
 
 author: wangyuejie                  # change to your full name
 
-avatar: /assets/img/sample/avatar.jpg   # support internet resources
+avatar: /blog/assets/img/sample/avatar.jpg   # support internet resources
 
 #github:
  # username: github_username             # change to your github username
@@ -118,7 +118,7 @@ defaults:
       breadcrumb:
         -
           label: Posts
-          url: /
+          url: /blog/
   -
     scope:
       path: _drafts
